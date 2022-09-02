@@ -11,7 +11,7 @@ import SwiftUI
 struct Favorite_MoviesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView(modelMov: ModelMovies(title: "ascss", year: 32))
         }
     }
 }
